@@ -9,7 +9,6 @@
 # Installation 
 
 ```  
-# Paid Tool 350
 termux-setup-storage
 pkg update -y
 pkg upgrade -y
