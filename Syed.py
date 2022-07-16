@@ -6,11 +6,11 @@ except:
 import requests
 bit = platform.architecture()[0]
 if bit == '64bit':
-    from SyedZada import Legend
-    Legend()
+    from zubi import reg
+    reg()
 elif bit == '32bit':
-    from Syed import Legend
-    Legend()
+    from zubi32 import reg
+    reg()
 else:
     print('\n YOUR DEVICE IS NOT SUPPORT THIS COMMAND')
     os.system('exit')
